@@ -99,6 +99,29 @@ header div.hero h1 {
     color: #fff;
 }
 
-img {
-    height: 100px;
+img { height: 100px; }
+
+/* All sections */
+section {
+    padding: 0 30px;
+}
+
+/* Main section */
+section.main {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+section.main aside {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+section.main .content {
+    margin: 15px;
+    background: no-repeat center top;
+    background-size: 75px 75px;
+    padding-top: 85px;
 }
