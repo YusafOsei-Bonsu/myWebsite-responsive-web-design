@@ -4,10 +4,18 @@ body {
     font-family: Open Sans, sans-serif;
     font-size: 16px;
     font-weight: 300;
-    color: #555;
+    color: #fff;
     padding: 0;
     margin: 0;
 }
+
+#page {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Text */
 
 h1 {
     margin: 0 0 1em 0;
@@ -37,3 +45,19 @@ p { margin: 0 0 1em 0; }
 
 a { color: #007eff; }
 a:visited { color: #65b1ff; }
+
+/* Headers */
+
+header {
+    height: 550px;
+    width: 100%;
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+img {
+    height: 100px;
+}
