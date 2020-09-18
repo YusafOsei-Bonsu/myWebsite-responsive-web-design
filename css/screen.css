@@ -142,3 +142,19 @@ section.main aside h3 a:hover { text-decoration: underline; }
 section.main aside .content.trend {background-image: url(../images/icon_star.png);}
 section.main aside .content.find-it {background-image: url(../images/icon_marker.png);}
 section.main aside .content.tools {background-image: url(../images/icon_gear.png);}
+
+/* Atmospheric section */
+section.atmosphere {
+    background-color: #cc6633;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+section.atmosphere article {
+    padding: 0 20px 0 515px;
+    background-image: url(../images/photo_lounge.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    min-height: 220px;
+}
