@@ -34,3 +34,12 @@ a, a:visited {
 nav {
     display: none;
 }
+
+header { position: relative; }
+
+header div.hero {
+    width: 75%;
+    position: absolute;
+    top: 110px;
+    left: 20px;
+}
