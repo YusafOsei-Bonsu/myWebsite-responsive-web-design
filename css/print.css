@@ -11,6 +11,7 @@ body {
     padding: 0;
 }
 
+/* Text */
 h1, h2, h3, h4 {
     margin: 0;
     font-family: "Open Sans", sans-serif;
@@ -37,8 +38,10 @@ a::after, a:visited::after {
     word-wrap: break-word;
 }
 
+/* Navigation */
 nav { display: none; }
 
+/* Header */
 header { position: relative; }
 
 header div.hero {
@@ -49,3 +52,51 @@ header div.hero {
 }
 
 header div.hero a::after { display: block; }
+
+/* All sections  */
+section { margin-bottom: 50px; }
+
+section::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* Main section */
+section.main {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+section.main aside {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+section.main aside div.content {
+    margin: 15px;
+}
+
+section.main aside div.content h3 a::after {
+    display: block;
+    font-family: serif;
+    font-weight: normal;
+}
+
+/* Atmosphere section */
+section.atmosphere {
+    position: relative;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    border-top: 1px solid #ccc;
+}
+
+section.atmosphere::before { content: url(../images/photo_lounge.jpg); }
+
+section.atmosphere article {
+    width: 40%;
+    position: absolute;
+    top: 40px;
+    left: 425px;
+}
