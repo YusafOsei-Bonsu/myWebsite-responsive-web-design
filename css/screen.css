@@ -156,11 +156,10 @@ section.atmosphere {
 
 section.atmosphere article {
     padding: 0 20px 0 515px;
-    background-image: url(../images/photo_lounge.jpg);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 450px;
-    min-height: 220px;
+    background: url(../images/photo_lounge.jpg) no-repeat 0 5px;
+    background-position: left center;
+    background-size: 500px 200px;
+    max-height: 220px;
 }
 
 /* Section - How-To */
@@ -342,3 +341,20 @@ footer a {
 
 footer a:visited { color: #777; }
 footer a:hover { color: #000; }
+
+/* Media queries */
+
+@media screen and (max-width: 1000px) {
+
+    h1 { font-size: 2.4em; }
+
+    /* Header */
+    header div.hero { left: 56%; }
+    header div.hero h1 { margin-bottom: 20px; }
+
+    /* Atmospheric section */
+    section.atmosphere article {
+        padding-left: 400px;
+        background-size: 375px auto;
+    }
+}
